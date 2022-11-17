@@ -94,7 +94,7 @@ def funck(cmd):
         print(kal)
         kaling = kal.replace('и','') 
         kaling1 = kaling.replace('х','*')
-        summa = eval(kaling1)
+        summa = str(eval(kaling1))
         with open('filik2.txt','w') as f:
             f.write(summa)
         speak(summa)
